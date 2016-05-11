@@ -6,7 +6,7 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.ListIterator;
 import java.util.Random;
-
+//Initialized variables
 public class ArrayListExample {
 
 	public static void main(String[] args) {
