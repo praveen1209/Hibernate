@@ -15,18 +15,20 @@ public class PatternFind {
 		Matcher mat2=pat2.matcher(s1);
 		
 		int occurance=0;
+		int count=0;
+		int count1=0;
 		while(mat.find()){
 			occurance++;
 		}
 		System.out.println(occurance);
 		while(mat1.find()){
-			occurance++;
+			count++;
 		}
-		System.out.println(occurance);
+		System.out.println(count);
 		while(mat2.find()){
-			occurance++;
+			count1++;
 		}
-		System.out.println(occurance);
+		System.out.println(count1);
 	}
 
 }
